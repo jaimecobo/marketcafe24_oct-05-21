@@ -1,0 +1,11 @@
+
+#div_alcoholBar{
+    display: block;
+}
+#alcoholBar{
+    /* width: 1900px; */
+    width: 100%;
+    max-height: 300px;
+    min-height: 100px;
+    /* height: relative; */
+}

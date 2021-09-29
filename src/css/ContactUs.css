@@ -1,0 +1,48 @@
+/* input{
+    margin-left: 11px;  
+} */
+
+/* label{
+    margin-top: 40px;
+} */
+#contactUsformDiv{
+    width: 100%;
+    /* width: 1900px; */
+    /* height: 800px; */
+     background-color: blueviolet;
+    
+}
+
+#divContactUsSecond{
+    width: 100%;
+    /* width: 1900px; */
+    /* height: 800px; */
+    background-color:burlywood ;
+    /* left: -292px; */
+
+}
+
+#divContactUsSecondLeft{
+    width: 50%;
+    /* width: 950px; */
+    /* height: 800px; */
+    background-color: blue ;
+
+}
+
+#divContactUsSecondRight{
+    width: 50%;
+    /* width: 900px; */
+    /* height: 800px; */
+    background-color: rgb(190, 190, 209) ;
+
+}
+#coffeeDesk01{
+    width: 100%;
+    /* width: 950px; */
+    /* height: 800px; */
+}
+
+#textAreaMessage{
+    width: 70%;
+}

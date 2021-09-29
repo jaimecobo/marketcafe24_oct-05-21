@@ -1,0 +1,16 @@
+div{
+    padding-bottom:22px;
+    position:relative;
+}
+
+div a {
+    position: absolute; 
+    bottom: 0; 
+    transform: translateX(-50%); 
+    left: 50%;
+}
+
+div a img{
+    width: 140;
+    height: 15;
+}

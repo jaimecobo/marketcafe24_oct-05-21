@@ -1,0 +1,260 @@
+div{
+    position: relative; 
+    left: 0; 
+    top: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+#torres_img{
+    /* width:fit-content; */
+    /* width: 1920px; */
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    filter: brightness(60%);
+    position: relative; 
+    left: 0; 
+    top: 0;
+}
+
+#services01{
+    position: absolute;
+      /* top: 60px; */
+      bottom: 10%;
+      /* left: 180px; */
+      left: 10%;
+      width: 30%;
+      height: 75%;
+
+    }
+
+#services02{
+    position: absolute;
+      bottom: 13%;
+      /* right: 500px; */
+      right: 25%;
+      /* height: 600px;
+      width: 500px; */
+      height: 50%;
+      width: 30%;
+}
+
+
+
+
+
+/*MEDIA QUERY*/
+/* @media only screen and (max-width : 1700px) { */
+        
+  /* #torres_img{
+      width: 1700px;
+  } */
+
+  /* #services01{
+    left: 160px;
+    height: 700px;
+    width: 500px;
+  
+} */
+
+/* #services02{
+      bottom: 30px;
+      right: 400px;
+      height: 600px;
+      width: 500px;
+}
+
+  
+} */
+
+/* @media only screen and (max-width : 1500px) {
+      
+  #torres_img{
+      width: 1500px;
+  } */
+
+  /* #services01{
+    left: 130px;
+  } */
+
+  /* #services02{
+
+    right: 300px;
+    height: 460px;
+    width: 400px;
+}   
+} */
+
+@media only screen and (max-width : 1300px) {
+  #torres_img{
+    height: 550px;
+}
+}
+
+@media only screen and (max-width : 1200px) {
+#services01{
+    bottom: 10%;
+    left: 10%;
+    width: 30%;
+    height: 85%;
+
+  }
+
+#services02{
+    bottom: 13%;
+    right: 25%;
+    height: 60%;
+    width: 30%;
+}
+}
+
+
+/* @media only screen and (max-width : 1300px) {
+  #torres_img{
+      width: 1300px;
+      height: 550px;
+  }
+
+  #services01{
+    top: 0px;
+    left: 100px;
+    height: 500px;
+  }
+
+  #services02{
+    bottom: 0px;
+    right: 250px;
+    height: 500px;
+    width: 450px;
+}   
+
+
+} */
+
+
+/* @media only screen and (max-width : 1100px) {
+  #torres_img{
+      width: 1100px;
+      height: 460px;
+  }
+
+  #services01{
+    top: 50px;
+    left: 50px;
+    height: 450px;
+  }
+
+  #services02{
+    bottom: 0px;
+    right: 200px;
+    height: 450px;
+    width: 400px;
+    
+  }   
+
+} */
+
+@media only screen and (max-width : 900px) {
+  #torres_img{
+      height: 380px;
+  }
+
+  #services01{
+    /* bottom: 10%; */
+    /* left: 10%; */
+    width: 30%;
+    height: 90%;
+
+  }
+
+#services02{
+    /* bottom: 13%; */
+    /* right: 25%; */
+    height: 65%;
+    width: 30%;
+}
+}
+
+
+
+/* @media only screen and (max-width : 900px) {
+  #torres_img{
+      width: 900px;
+      height: 380px;
+  }
+
+  #services01{
+    top: 0px;
+    left: -10px;
+    height: 350px;
+  }
+
+  #services02{
+    bottom: 20px;
+    right: 200px;
+    height: 300px;
+    width: 280px; 
+  }   
+
+
+
+
+} */
+
+
+@media only screen and (max-width : 700px) {
+  #torres_img{
+      height: 295px;
+  }
+
+  #services01{
+    bottom: 10%;
+    left: -5%;
+    height: 80%;
+    width: 60%;
+  }
+
+  #services02{
+    bottom: 12%;
+    left: 40%;
+    height: 60%;
+    width: 45%; 
+  }   
+
+
+
+}
+
+/* @media only screen and (max-width : 500px) {
+  #torres_img{
+      width: 500px;
+  }
+} */
+
+/* @media only screen and (min-width : 320px) and (max-width : 700px) { */
+  @media only screen and (max-width : 500px) {
+  #torres_img{
+      height: 250px;
+  }
+
+  #services01{
+    bottom: 6%;
+    left: 8%;
+    width: 40%;
+    height: 90%;
+
+  }
+
+  #services02{
+    bottom: 10px;
+    left: 46%;
+    height: 80%;
+    width: 40%;
+  }
+}

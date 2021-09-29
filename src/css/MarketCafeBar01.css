@@ -1,0 +1,238 @@
+div{
+    position: relative; 
+    left: 0; 
+    top: 0;
+}
+
+#image_container_bar01 {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+#greyBar{
+    /* width: 1900px; */
+    width: 100%;
+    /* max-height: 250px; */
+    height: 250px;
+}
+
+#text_cafe{
+    position:absolute;
+    /* height:240px; */
+    height: 96%;
+    width: 33.33%;
+    /* border-radius: 20px; */
+    margin-top: 5px;
+    /* margin-left: 20px; */
+    left: 33.33%;
+}
+
+#logoBar01{
+    position:absolute;
+    /* height:240px; */
+    height: 96%;
+    width: 33.33%;
+    /* border-radius: 20px; */
+    margin-top: 5px;
+    /* margin-left: 20px; */
+    left: 66.66%;
+}
+
+#logoBar02{
+    position:absolute;
+    /* height:240px; */
+    height: 96%;
+    width: 33.33%;
+    /* border-radius: 20px; */
+    margin-top: 5px;
+    /* margin-left: 20px; */
+    left: 0%;
+    
+}
+
+@media only screen and (max-width : 1300px) {
+    #image_container_bar01{
+        height: 215px;
+    }
+
+    #greyBar{
+        height: 215px;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+
+    #image_container_bar01{
+        height: 182px;
+    }
+
+    #greyBar{
+        height: 182px;
+    }
+
+}
+
+
+@media only screen and (max-width : 900px) {
+
+    #image_container_bar01{
+        height: 153px;
+    }
+
+    #greyBar{
+        height: 153px;
+    }
+
+}
+
+
+@media only screen and (max-width : 700px) {
+    
+    
+    #image_container_bar01{
+        height: 120px;
+    }
+
+    #greyBar{
+        height: 120px;
+    }
+}
+
+/*MEDIA QUERY*/
+/* @media only screen and (max-width : 1700px) {
+    
+#text_cafe{
+    height:240px;
+    width: 567px;
+    left: 567px;
+}
+
+#logoBar01{
+    height:240px;
+    width: 567px;
+    left: 1134px;
+}
+
+#logoBar02{
+    height:240px;
+    width: 567px;
+    left: 0px;
+}
+
+    
+}
+
+@media only screen and (max-width : 1500px) {
+    #text_cafe{
+        height:240px;
+        width: 500px;
+        left: 500px;
+    }
+    
+    #logoBar01{
+        height:240px;
+        width: 500px;
+        left: 1000px;
+    }
+    
+    #logoBar02{
+        height:240px;
+        width: 500px;
+        left: 0px;
+    }
+
+
+}
+
+
+@media only screen and (max-width : 1300px) {
+    #text_cafe{
+        height:240px;
+        width: 433px;
+        left: 433px;
+    }
+    
+    #logoBar01{
+        height:240px;
+        width: 433px;
+        left: 866px;
+    }
+    
+    #logoBar02{
+        height:240px;
+        width: 433px;
+        left: 0px;
+    }
+
+}
+
+
+@media only screen and (max-width : 1100px) {
+    #text_cafe{
+        height:240px;
+        width: 367px;
+        left: 367px;
+    }
+    
+    #logoBar01{
+        height:240px;
+        width: 367px;
+        left: 734px;
+    }
+    
+    #logoBar02{
+        height:240px;
+        width: 367px;
+        left: 0px;
+    }
+
+}
+
+
+@media only screen and (max-width : 900px) {
+    #text_cafe{
+        height:240px;
+        width: 300px;
+        left: 300px;
+    }
+    
+    #logoBar01{
+        height:240px;
+        width: 300px;
+        left: 600px;
+    }
+    
+    #logoBar02{
+        height:240px;
+        width: 300px;
+        left: 0px;
+    }
+
+    
+
+}
+
+
+
+@media only screen and (max-width : 700px) {
+    #text_cafe{
+        height:240px;
+        width: 233px;
+        left: 233px;
+    }
+    
+    #logoBar01{
+        height:240px;
+        width: 233px;
+        left: 466px;
+    }
+    
+    #logoBar02{
+        height:240px;
+        width: 233px;
+        left: 0px;
+    }
+    
+    
+} */

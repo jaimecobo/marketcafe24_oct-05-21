@@ -1,0 +1,372 @@
+div{
+    position: relative; 
+    left: 0; 
+    top: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+#cloudsBar{
+    /* width: 1900px; */
+    width: 100%;
+    height: 250px;
+}
+
+#caffeine_owl01{
+    position:absolute;
+    /* height:240px; */
+    /* width: 240px; */
+    height:96%;
+    width: 13%;
+    border-radius: 20px;
+    margin-top: 2.5px;
+    /* margin-left: 20px; */
+    /* left: 70px; */
+    left: 3.143%;
+}
+
+#caffeine_owl02{
+    position:absolute;
+    /* height:240px; */
+    /* width: 240px; */
+    height:96%;
+    width: 13%;
+    border-radius: 20px;
+    margin-top: 2.5px;
+    /* margin-left: 20px; */
+    /* left: 378px; */
+    left: 19.286%;
+}
+
+#caffeine_owl03{
+    position:absolute;
+    /* height:240px; */
+    /* width: 240px; */
+    height:96%;
+    width: 13%;
+    border-radius: 20px;
+    margin-top: 2.5px;
+    /* margin-left: 20px; */
+    /* left: 686px; */
+    left: 35.43%;
+}
+
+#caffeine_owl04{
+    position:absolute;
+    /* height:240px; */
+    /* width: 240px; */
+    height:96%;
+    width: 13%;
+    border-radius: 20px;
+    margin-top: 2.5px;
+    /* margin-left: 20px; */
+    /* left: 994px; */
+    left: 51.572%;
+}
+
+#caffeine_owl05{
+    position:absolute;
+    /* height:240px; */
+    /* width: 240px; */
+    height:96%;
+    width: 13%;
+    border-radius: 20px;
+    margin-top: 2.5px;
+    /* margin-left: 20px; */
+    /* left: 1302px; */
+    left: 67.715%;
+}
+
+#caffeine_owl06{
+    position:absolute;
+    /* height:240px; */
+    /* width: 240px; */
+    height:96%;
+    width: 13%;
+    border-radius: 20px;
+    margin-top: 2.5px;
+    /* margin-left: 20px; */
+    /* left: 1610px; */
+    left: 83.86%;
+}
+
+
+
+/*MEDIA QUERY*/
+/* @media only screen and (max-width : 1700px) {
+    #cloudsBar{
+        width: 1700px;
+    }
+
+    #caffeine_owl01{
+        left: 38px;
+    }
+    
+    #caffeine_owl02{
+        
+        left: 316px;
+    }
+    
+    #caffeine_owl03{
+        
+        left: 594px;
+    }
+    
+    #caffeine_owl04{
+       
+        left: 872px;
+    }
+    
+    #caffeine_owl05{
+       
+        left: 1150px;
+    }
+    
+    #caffeine_owl06{
+        
+        left: 1428px;
+    }
+    
+} */
+
+/* @media only screen and (max-width : 1500px) {
+    #cloudsBar{
+        width: 1500px;
+    
+    }
+
+    
+    #caffeine_owl01{
+        
+        left: 1px;
+        
+    }
+    
+    #caffeine_owl02{
+        
+        left: 252px;
+    }
+    
+    #caffeine_owl03{
+        
+        left: 504px;
+    }
+    
+    #caffeine_owl04{
+       
+        left: 756px;
+    }
+    
+    #caffeine_owl05{
+        
+        left: 1008px;
+    }
+    
+    #caffeine_owl06{
+       
+        left: 1259px;
+    }
+
+
+} */
+
+
+ @media only screen and (max-width : 1300px) {
+    #cloudsBarContainer{
+        height: 215px;
+    }
+
+    #cloudsBar{
+        height: 215px;
+    }
+
+    /* #caffeine_owl01{
+        height:205px;
+        width: 205px;
+        left: 10px;
+    }
+    
+    #caffeine_owl02{
+        height:205px;
+        width: 205px;
+        left: 225px;
+    }
+    
+    #caffeine_owl03{
+        height:205px;
+        width: 205px;
+        left: 440px;
+    }
+    
+    #caffeine_owl04{
+        height:205px;
+        width: 205px;
+        left: 655px;
+    }
+    
+    #caffeine_owl05{
+        height:205px;
+        width: 205px;
+        left: 870px;
+    }
+    
+    #caffeine_owl06{
+        height:205px;
+        width: 205px;
+        left: 1085px;
+    } */
+
+}
+
+
+@media only screen and (max-width : 1100px) {
+
+    #cloudsBarContainer{
+        height: 182px;
+    }
+
+    #cloudsBar{
+        height: 182px;
+    }
+
+    /* #caffeine_owl01{
+        height:172px;
+        width: 172px;
+        left: 4px;
+    }
+    
+    #caffeine_owl02{
+        height:172px;
+        width: 172px;
+        left: 188px;
+    }
+    
+    #caffeine_owl03{
+        height:172px;
+        width: 172px;
+        left: 372px;
+    }
+    
+    #caffeine_owl04{
+        height:172px;
+        width: 172px;
+        left: 556px;
+    }
+    
+    #caffeine_owl05{
+        height:172px;
+        width: 172px;
+        left: 740px;
+    }
+    
+    #caffeine_owl06{
+        height:172px;
+        width: 172px;
+        left: 924px;
+    } */
+
+}
+
+
+@media only screen and (max-width : 900px) {
+
+    
+    #cloudsBarContainer{
+        height: 153px;
+    }
+
+    #cloudsBar{
+        height: 153px;
+    }
+
+    /* #caffeine_owl01{
+        height:143px;
+        width: 143px;
+        left: 6px;
+    }
+    
+    #caffeine_owl02{
+        height:143px;
+        width: 143px;
+        left: 155px;
+    }
+    
+    #caffeine_owl03{
+        height:143px;
+        width: 143px;
+        left: 304px;
+    }
+    
+    #caffeine_owl04{
+        height:143px;
+        width: 143px;
+        left: 453px;
+    }
+    
+    #caffeine_owl05{
+        height:143px;
+        width: 143px;
+        left: 602px;
+    }
+    
+    #caffeine_owl06{
+        height:143px;
+        width: 143px;
+        left: 751px;
+    } */
+
+}
+
+
+
+@media only screen and (max-width : 700px) {
+    
+    
+    #cloudsBarContainer{
+        height: 120px;
+    }
+
+    #cloudsBar{
+        height: 120px;
+    }
+
+    /* #caffeine_owl01{
+        height:110px;
+        width: 110px;
+        left: 5px;
+    }
+    
+    #caffeine_owl02{
+        height:110px;
+        width: 110px;
+        left: 121px;
+    }
+    
+    #caffeine_owl03{
+        height:110px;
+        width: 110px;
+        left: 237px;
+    }
+    
+    #caffeine_owl04{
+        height:110px;
+        width: 110px;
+        left: 353px;
+    }
+    
+    #caffeine_owl05{
+        height:110px;
+        width: 110px;
+        left: 469px;
+    }
+    
+    #caffeine_owl06{
+        height:110px;
+        width: 110px;
+        left: 585px;
+    } */
+
+} 

@@ -1,0 +1,91 @@
+/* div{
+    position: relative; 
+    left: 0; 
+    top: 0;
+} */
+
+/* #Reviews{
+    height: 800px;
+    width: 1900px;
+    background-color:darkgray;
+} */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #cibeles{
+    /* width:fit-content; */
+    width: 100%;
+    /* width: 1920px; */
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    filter: brightness(60%);
+    position: relative; 
+    /* left: 0; 
+    top: 0; */
+}
+
+#googleRev{
+    position:absolute;
+    width: 100%;
+    /* width: 1920px; */
+    height: 800px;
+}
+
+@media only screen and (max-width : 1200px) {
+    #cibeles{
+        height: 900px;
+    }
+
+    #googleRev{
+        height: 900px;
+    }
+
+}
+
+@media only screen and (max-width : 900px) {
+    #cibeles{
+        height: 1000px;
+    }
+
+    #googleRev{
+        height: 1000px;
+    }
+
+}
+
+@media only screen and (max-width : 770px) {
+    #cibeles{
+        height: 1300px;
+    }
+
+    #googleRev{
+        height: 1300px;
+    }
+
+}
+
+@media only screen and (max-width : 640px) {
+    #cibeles{
+        height: 1500px;
+    }
+
+    #googleRev{
+        height: 1500px;
+    }
+
+}
+@media only screen and (max-width : 499px) {
+    #cibeles{
+        height: 2300px;
+    }
+
+    #googleRev{
+        height: 2300px;
+    }
+
+}
