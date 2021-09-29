@@ -17,7 +17,7 @@ import MarketCaFeBar03 from './components/MarketCafeBar03'
 import ContactUS from './components/ContactUs';
 import Map from './components/MapContainer'
 import Reviews from './components/Reviews'
-import VisitsCounter from './components/VisitsCounter.js'
+import VisitsCounter from './components/VisitsCounter'
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -37,7 +37,7 @@ ReactDOM.render(
     <MarketCafeBar02 />
     <ContactUS /> 
     <MarketCaFeBar03 />
-    {/* <Reviews /> */}
+    <Reviews />
     <VisitsCounter />
     {/* <Footer /> */}
     {/* <Weather01 /> */}
