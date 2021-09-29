@@ -108,14 +108,14 @@ import suscribete from '../images/edited/Subscribe01.png'
                 </div>
                 {/* <div id="flag_rigth"></div> */}
             
-                {/* <div className="d-flex justify-content-center" id="recaptchaSubscribe">
+                <div className="d-flex justify-content-center" id="recaptchaSubscribe">
                     <ReCAPTCHA
-                        sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-                        // sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+                        // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                        sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                         onChange={handleOnChange}
                     />
                 </div>
-                 */}
+                
             </div>
 
 

@@ -9,7 +9,7 @@ function WeatherTemplate() {
     const [getState, setGetState] = useState('Madrid');
     const [state, setState] = useState('Madrid');
 
-    const apiKey = process.env.REACT_APP_API_KEY;
+    const apiKey = process.env.REACT_APP_OPEN_WEATHER_API_KEY;
     
     // const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${state}appid=96676b6f27da3b5e8f5ea205416d1642`;
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${state}appid=${apiKey}`;

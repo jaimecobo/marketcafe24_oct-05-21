@@ -375,8 +375,8 @@ import coffeeDesk from '../images/coffeeDesk.jpg'
             
               <div class="d-flex justify-content-center">
                 <ReCAPTCHA
-                    sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-                    // sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+                    // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                    sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                     onChange={handleOnChange}
                 />
               </div>

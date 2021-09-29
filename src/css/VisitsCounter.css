@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.div_footer{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.result{
+    font-size: 6px;
+}
+
+hr{
+    border-top:1px dotted #ccc;
+} 
+
+
+label{
+    font-size:20px;
+    /* color: #192a56; */
+} 
+.text-info{
+    background-color: #192a56;
+    /* color: #192a56; */
+}
+
+#visitors_counter{
+	background-color: #192a56;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* height: 100vh; */
+	margin: 0;
+}
+
+#visitors_counter h1{
+    font-size: 14px;
+	margin: 0;
+}
