@@ -23,18 +23,18 @@ function cookieVal(cookieName) {
 	return 0;
 }
 
-function updateVisitCount() {
-	console.log('### nameSpace is = ' + nameSpace)
-	console.log('### countApiKey is = ' + countApiKey)
-	fetch('https://api.countapi.xyz/update/' + nameSpace + '/' + countApiKey + '/?amount=1')
-	.then(res => res.json())
-	.then(res => {
-		countEl.innerHTML = res.value;
-	})
-}
+// function updateVisitCount() {
+// 	console.log('### nameSpace is = ' + nameSpace)
+// 	console.log('### countApiKey is = ' + countApiKey)
+// 	fetch('https://api.countapi.xyz/update/' + nameSpace + '/' + countApiKey + '/?amount=1')
+// 	.then(res => res.json())
+// 	.then(res => {
+// 		countEl.innerHTML = res.value;
+// 	})
+// }
 
 
-const countEl = document.getElementById('count');
+// const countEl = document.getElementById('count');
 
 
 const nameSpace = process.env.REACT_APP_NAMESPACE
@@ -45,7 +45,7 @@ console.log('$$$ countApiKey is = ' + countApiKey)
  
 
 
-updateVisitCount();
+// updateVisitCount();
 
  
 // document.getElementById('result').innerHTML = "<h6>You visited this website <label class='text-info'>" + counter + "</label> " + times + ".</h6>";
