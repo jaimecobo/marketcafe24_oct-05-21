@@ -20,22 +20,39 @@ function cookieVal(cookieName) {
 	return 0;
 }
 
-const countEl = document.getElementById('count');
-
-
-const nameSpace = process.env.REACT_APP_NAMESPACE
-const countApiKey = process.env.REACT_APP_COUNT_API_KEY
-
-
-updateVisitCount();
-
 function updateVisitCount() {
+	console.log('### nameSpace is = ' + nameSpace)
+	console.log('### countApiKey is = ' + countApiKey)
 	fetch('https://api.countapi.xyz/update/' + nameSpace + '/' + countApiKey + '/?amount=1')
 	.then(res => res.json())
 	.then(res => {
 		countEl.innerHTML = res.value;
 	})
 }
+
+
+const countEl = document.getElementById('count');
+
+
+const nameSpace = process.env.REACT_APP_NAMESPACE
+const countApiKey = process.env.REACT_APP_COUNT_API_KEY
+
+console.log('$$$ nameSpace is = ' + nameSpace)
+console.log('$$$ countApiKey is = ' + countApiKey)
+ 
+
+
+updateVisitCount();
+
+// function updateVisitCount() {
+// 	console.log('### nameSpace is = ' + nameSpace)
+// 	console.log('### countApiKey is = ' + countApiKey)
+// 	fetch('https://api.countapi.xyz/update/' + nameSpace + '/' + countApiKey + '/?amount=1')
+// 	.then(res => res.json())
+// 	.then(res => {
+// 		countEl.innerHTML = res.value;
+// 	})
+// }
 
  
 document.getElementById('result').innerHTML = "<h6>You visited this website <label class='text-info'>" + counter + "</label> " + times + ".</h6>";
