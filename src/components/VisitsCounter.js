@@ -48,7 +48,7 @@ console.log('$$$ countApiKey is = ' + countApiKey)
 updateVisitCount();
 
  
-document.getElementById('result').innerHTML = "<h6>You visited this website <label class='text-info'>" + counter + "</label> " + times + ".</h6>";
+// document.getElementById('result').innerHTML = "<h6>You visited this website <label class='text-info'>" + counter + "</label> " + times + ".</h6>";
 
 
 
@@ -68,7 +68,10 @@ class VisitsCounter extends Component {
                         © 2021 Copyright.
                     <div id="div_footer" className="text-center p-3">
 
-                        <div id="result" className="text-center p-3"></div>
+                        {/* <div id="result" className="text-center p-3"></div> */}
+                        <div id="result" className="text-center p-3">
+                            <h6>You visited this website <label class='text-info'>{counter}</label> {times}.</h6>
+                        </div>
                         <div id="visitors_counter" className="text-center p-3">
                             <p>This page was viewed</p>
                             <h1 id="count">0</h1>
