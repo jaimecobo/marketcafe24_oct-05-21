@@ -74,6 +74,9 @@ h1{
 
 #recaptchaSubscribe{
   width: 100%;
+  top: -50%;
+  right: -100%;
+
 }
 
 .gradient-custom-2 {
