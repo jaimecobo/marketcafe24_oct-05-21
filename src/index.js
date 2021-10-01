@@ -37,7 +37,7 @@ ReactDOM.render(
     <MarketCafeBar02 />
     <ContactUS /> 
     <MarketCaFeBar03 />
-    <Reviews />
+    {/* <Reviews /> */}
     <VisitsCounter />
     {/* <Footer /> */}
     {/* <Weather01 /> */}

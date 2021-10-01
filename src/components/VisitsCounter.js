@@ -40,8 +40,8 @@ function cookieVal(cookieName) {
 const nameSpace = process.env.REACT_APP_NAMESPACE
 const countApiKey = process.env.REACT_APP_COUNT_API_KEY
 
-console.log('$$$ nameSpace is = ' + nameSpace)
-console.log('$$$ countApiKey is = ' + countApiKey)
+// console.log('$$$ nameSpace is = ' + nameSpace)
+// console.log('$$$ countApiKey is = ' + countApiKey)
  
 
 
