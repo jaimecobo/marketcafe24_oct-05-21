@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../css/Bernabeu.css';
-import bernabeu from '../images/Bernabeu03.jpeg'
-import bernabeuOffers from '../images/BernabeuOffers03.svg'
+import bernabeu from '../images/New_edited/Bernabeu_img_01.png'
+// import bernabeu from '../images/Bernabeu03.jpeg'
+// import bernabeuOffers from '../images/BernabeuOffers03.svg'
 
 
 
@@ -13,7 +14,7 @@ class Bernabeu extends Component {
             <div class="image-container">
 
                 <img className="img-fluid" alt="" id="bernabeu" src={bernabeu} />
-                <img className="img-fluid" alt="" id="bernabeuOffers" src={bernabeuOffers}/>
+                {/* <img className="img-fluid" alt="" id="bernabeuOffers" src={bernabeuOffers}/> */}
                 
             </div>
 
