@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import '../css/MarketCafeBar03.css';
-import breadBar from '../images/BreadsBar04.png'
-import text_bread from '../images/TEXTOS_PAN.svg'
-import logo01 from '../images/LogoScone04.svg'
-import logo02 from '../images/LogoScone02.svg'
-import logoBread03 from '../images/edited/01_Logo01_3_01.svg'
+
+import breadBar from '../images/New_edited/BreadBar_img_01.png'
+// import breadBar from '../images/BreadsBar04.png'
+// import text_bread from '../images/TEXTOS_PAN.svg'
+// import logo01 from '../images/LogoScone04.svg'
+// import logo02 from '../images/LogoScone02.svg'
+// import logoBread03 from '../images/edited/01_Logo01_3_01.svg'
 
 
 class MarketCaFeBar03 extends Component {
@@ -17,7 +19,7 @@ text_cafe
 
                 <img id="breadBar" alt="" src={breadBar} /> 
 
-                <span>
+                {/* <span>
                     <img alt="" id="logoBreadBar01" src={logoBread03}/>
                 </span>
                 <span>
@@ -31,7 +33,7 @@ text_cafe
                 </span>
                 <span>
                     <img alt="" id="logoBreadBar04" src={logoBread03}/>
-                </span>
+                </span> */}
 
             </div>
 
