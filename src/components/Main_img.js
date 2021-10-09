@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import '../css/Main_img.css';
 import '../css/Dishes.css';
-import granViaMadrid from '../images/GranViaMadrid.jpg'
-import findUs from '../images/findUs01.svg'
+// import granViaMadrid from '../images/GranViaMadrid.jpg'
+import granViaMadrid from '../images/New_edited/Main_img_01.png'
+// import findUs from '../images/findUs01.svg'
 
 
 class Main_img extends Component {
@@ -13,7 +14,7 @@ class Main_img extends Component {
             <div class="image-container">
 
                 <img alt="" id="main_img" src={granViaMadrid} />
-                <img alt="" id="findUs" src={findUs}/>
+                {/* <img alt="" id="findUs" src={findUs}/> */}
                 
             </div>
 
