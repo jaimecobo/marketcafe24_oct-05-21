@@ -107,9 +107,9 @@ import suscribete from '../images/edited/Subscribe01.png'
 
                     <div className="d-flex justify-content-center" id="recaptchaSubscribe">
                     <ReCAPTCHA
-                        // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-                        sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
-                        // sitekey={process.env.REACT_APP_RECAPTCHA_SECRET_KEY}
+                        sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"  //ESTA ES LA CLAVE PARA QUE FUNCIONE LOCALHOST
+                        // sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}   //**ESTA ES LA CLAVE QUE PUSE LA PRIMERA VEZ QUE PUBLIQUE */
+                        // sitekey={process.env.REACT_APP_RECAPTCHA_SECRET_KEY} 
                         onChange={handleOnChange}
                     />
                 </div>
